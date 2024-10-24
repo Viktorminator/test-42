@@ -12,7 +12,7 @@ npm run dev
 ```
 Лінки:
 
-[http://localhost/subscriptions](https://localhost/subscriptions)
+[http://localhost:8080/subscriptions](https://localhost:8080/subscriptions)
 [http://localhost:8080/api/documentation](http://localhost:8080/api/documentation)
 
 Вигляд проекту:
