@@ -28,7 +28,7 @@ class SubscriptionService
     public function create(array $data): Subscription
     {
         $tariff = Tariff::find($data['tariff_id']);
-        $totalCost = $tariff->price_per_user * $data['user_count'];
+        $totalCost = $this->getTotalCost($data['payment_frequency'], $tariff->price_per_user, $data['user_count']);
 
         return Subscription::create([
             'status' => self::STATUS_PENDING,
