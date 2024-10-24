@@ -14,7 +14,7 @@ use Illuminate\Http\JsonResponse;
  *     @OA\Property(property="id", type="integer", example=1),
  *     @OA\Property(property="status", type="string", example="active"),
  *     @OA\Property(property="tariff_id", type="integer", example=1),
- *     @OA\Property(property="tariff_name", type="string", example="),
+ *     @OA\Property(property="tariff_name", type="string", example=""),
  *     @OA\Property(property="user_count", type="integer", example=7),
  *     @OA\Property(property="total_cost", type="number", format="float", example=28.00),
  *     @OA\Property(property="payment_frequency", type="string", example="monthly"),
